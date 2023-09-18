@@ -31,3 +31,6 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+example_cert.crt
+example_cert.key

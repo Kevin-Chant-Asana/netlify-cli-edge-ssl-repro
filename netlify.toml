@@ -21,3 +21,9 @@
 [[edge_functions]]
   path = "/edge"
   function = "example-edge-function"
+
+[dev]
+  port = 443
+  [dev.https]
+    certFile = "example_cert.crt"
+    keyFile = "example_cert.key"
