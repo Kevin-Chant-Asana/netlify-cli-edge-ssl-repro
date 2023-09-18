@@ -17,3 +17,7 @@
   to = "/.netlify/functions/:splat" # all function calls will go to this path
   status = 200 # ok code
   force = true # ensure to always redirect
+
+[[edge_functions]]
+  path = "/edge"
+  function = "example-edge-function"

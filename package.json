@@ -15,7 +15,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export"
+    "export": "next export",
+    "netlify-dev": "netlify dev"
   },
   "dependencies": {
     "cypress": "^10.0.3",
@@ -24,6 +25,7 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "netlify-cli": "^16.3.6",
     "netlify-plugin-cypress": "2.2.1"
   }
 }
